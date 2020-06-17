@@ -1,0 +1,28 @@
+{
+    "name": "unal/sedes-unal",
+    "type": "typo3-cms-extension",
+    "description": "Plugin para crear un menu con las sedes.",
+    "authors": [
+        {
+            "name": "Camilo N",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "UNAL\\SedesUnal\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UNAL\\SedesUnal\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "sedes_unal": "self.version",
+        "typo3-ter/sedes-unal": "self.version"
+    }
+}

@@ -1,0 +1,112 @@
+.tx-sedes-unal{
+
+	.protocolo{
+	
+		margin-top:30px;
+		padding:unset;
+	
+		.panel-heading {
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				margin-bottom: unset;
+			}
+		}
+	
+		.panel-body > p {
+			padding: 0em 0.2em;
+			margin: unset;
+		}
+	
+		.panel-body{
+			padding: 1.5em;
+		}
+		.atributos{
+	
+			padding-top:15px;	
+	
+			p {overflow: auto;}
+	
+			table{
+				margin-bottom:10px;
+				width: 100%;
+				th {
+					background:#1c5e83;
+					color:white;
+					border-left: 2px solid #c5c6c7;
+					padding:10px;
+					font-size:1.4em;
+					vertical-align:middle;
+				}
+				tr:nth-child(even) {
+					background: #dfdfdf;
+					td:first-child {
+						color:white;			
+						font-weight: bold;
+						background: #438cb7
+					}
+				}
+				tr:nth-child(odd) {
+					background: #ffffff;
+					td:first-child {
+						color:white;					
+						font-weight: bold;
+						background: #4c9bcc
+					}
+				}
+	
+				tr{
+					border-left: 2px solid #c5c6c7;
+					border-top: 2px solid #c5c6c7;
+				}
+	
+				td{
+					vertical-align: middle;
+				}
+			}
+	
+		}
+	
+		table{
+	
+			td {
+				text-align: center;
+			}
+	
+			th {
+				text-align: center;
+			}
+	
+			font-size: 1.3em;
+			line-height: 1.3em;
+	
+			p{			
+				padding: 0.3em 1em;
+				font-size:1em;
+			}
+		}
+	
+		
+	}
+	
+	.lista-sede{
+
+		.list-group-item {
+			font-weight: bold;
+			font-size: 2em;
+			padding: 1%;
+		}
+
+		.list-group {
+			padding: 30px;
+			margin-top: -15px;
+		}
+	
+	}
+
+} 
+
+

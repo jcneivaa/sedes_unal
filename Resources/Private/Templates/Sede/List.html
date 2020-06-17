@@ -1,0 +1,45 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="main">
+
+<f:flashMessages />
+
+	<div class="row lista-sede">
+		<div class="col-md-12">	
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12" style="margin-bottom: 10px">
+					
+								<div class="panel-body">
+									<f:format.html>{texto}</f:format.html>
+								</div>
+
+						</div>
+
+
+							<div class="col-md-12">
+								<div class="list-group">
+
+									<f:for each="{sedes}" as="sede">
+									
+											<f:link.typolink parameter="{sede.link}" target="_blank">
+												<div class="list-group-item list-group-item-info">
+													<p style="font-size:18px"><b>{sede.nombreDisplay}</b></p>
+												</div>
+											</f:link.typolink>				
+									   
+									</f:for>
+								</div>
+							
+							</div>
+
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+</f:section>
+</html>
